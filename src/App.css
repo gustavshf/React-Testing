@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+ body {
+  background: #282828;
+}
+
+.post-property{
+margin-right:10px;
+float:left;
+}
+
+a{
+  color:#337ab7;
+   text-decoration: none;
+   font-weight:normal;
+   font-size:14px;
+}
+
+body > .container-fluid {
+  margin-top: 5%;
+}
+.body-container{
+  padding-right:100px;
+}
+.bottom-links{
+  width:100%;
+}
+.posts-list {
+  
+  overflow: hidden;
+}
+.post-heading{
+margin: 0px 0px 0px 0px;
+}
+
+.post-body{
+margin: 5px 10px 10px 0px;
+  font-size:14px;
+}
+.post-rating{
+margin: 5px 10px 10px 0px;
+  font-size:14px;
+  color:grey;
+}
+.input-wrap {
+  margin-bottom: 0.8em;
+}
+.row{
+  display:-webkit-box;
+    margin-left:5px;
+    margin-right:5px;
+}
+.media-list {
+  margin-top: 1.5em;
+}
+
+
+.media {
+    color:whitesmoke;
+  margin-top: 2em;
+  padding-bottom: 2em;
+  border-bottom: 1px solid #e1e8ed;
+  display:-webkit-box;
+}
+
+.media-object {
+  margin: 0px 15px 15px 0px;
+   border-radius: 50%;
+}
+
+.media:last-child {
+  border-bottom: none;
+}
+
+h2 input {
+  width: 2em;
+  text-align: center;
+}
+            .timeAgo{
+                font-size:14px;
+                    color: grey;
+            }
+            

@@ -14,13 +14,14 @@ class ListItem extends Component {
   return nextProps.favorites!==this.props.favorites || nextProps.reposts!==this.props.reposts || nextProps.text!==this.props.text;
 }*/
 
-  
+  //testing
   render() {
-    const {firstName, lastName, sUserName, iRating, reposts, favorites, text} = this.props;
+      const { firstName, lastName, sUserName, iRating, reposts, favorites, text } = this.props;
+      var sImageName = "img/initials" + (Math.floor(Math.random() * 8)+1) + ".png";
     return (
                 <div className="row input-wrap">
    <div className="media">
-   <a className="profile-picture" href="#"><img className="media-object" width="75" height="75" src={"img/initials.png"}></img></a>
+                <a className="profile-picture" href="#"><img className="media-object" width="75" height="75" src={sImageName}></img></a>
    <div className="body-container">
       <div className="row">
          

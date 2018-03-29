@@ -37,13 +37,16 @@ class PostList extends Component {
         {this.state.posts.map(post =>{
           var sUserName = (post.firstName.slice(0, 1) + post.lastName).toLowerCase();
           var iRating = (post.favorites + post.reposts)/50;
-          return (
+                return (
+              <div>
+              <hr/>
             <ListItem
             sUserName={sUserName}
             iRating={iRating}
               {...post}
             >
-            </ListItem>
+                        </ListItem>
+                        </div>
           )
         })}
 

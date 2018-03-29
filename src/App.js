@@ -13,7 +13,7 @@ const products = [{
         price: 650
     }
 ]
-
+//testing
 localStorage.setItem('products', JSON.stringify(products));
 
 class App extends Component {
@@ -31,7 +31,7 @@ class App extends Component {
         this.setState({ this.posts });*/
         var posts = [];
              $.ajax({
-                url:'http://localhost:3000/posts?_page=1&_limit=1000',
+                url:'http://localhost:3000/posts?_page=1&_limit=100',
                 async:false,
                 success:function(response){
                     posts=response;
